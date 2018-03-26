@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "frontend scaffold",
   "main": "src/generators/app/index.js",
+  "repository": "https://github.com/hokkoo/generator-sf-dengta-frontend-scaffold.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
