@@ -1,0 +1,21 @@
+{
+  "name": "sf-dengta-frontend-scaffold",
+  "version": "0.0.1",
+  "description": "frontend scaffold",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sf-dengta frontend",
+    "scaffolding",
+    "generator",
+    "yeoman",
+  ],
+  "dependencies": {
+    "yeoman-generator": "^1.1.1",
+    "yeoman-welcome": "^1.0.1"
+  },
+  "author": "tony king",
+  "license": "BSD-2-Clause"
+}
