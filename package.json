@@ -2,7 +2,7 @@
   "name": "sf-dengta-frontend-scaffold",
   "version": "0.0.1",
   "description": "frontend scaffold",
-  "main": "index.js",
+  "main": "src/generators/app/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,9 +10,11 @@
     "sf-dengta frontend",
     "scaffolding",
     "generator",
-    "yeoman",
+    "yeoman"
   ],
   "dependencies": {
+    "extend": "^3.0.1",
+    "recursive-copy": "^2.0.9",
     "yeoman-generator": "^1.1.1",
     "yeoman-welcome": "^1.0.1"
   },
