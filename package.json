@@ -1,7 +1,7 @@
 {
   "name": "generator-sf-dengta-frontend-scaffold",
-  "version": "0.0.2",
-  "description": "frontend scaffold",
+  "version": "0.0.3",
+  "description": "Yeoman generator for frontend scaffold",
   "main": "src/generators/app/index.js",
   "repository": "https://github.com/hokkoo/generator-sf-dengta-frontend-scaffold.git",
   "scripts": {
@@ -11,11 +11,8 @@
     "src/generators"
   ],
   "keywords": [
-    "sf-dengta frontend",
-    "scaffolding",
-    "generator",
-    "yeoman",
-    "yeoman-generator"
+    "yeoman-generator",
+    "sf-dengta frontend"
   ],
   "dependencies": {
     "extend": "^3.0.1",
@@ -24,5 +21,5 @@
     "yeoman-welcome": "^1.0.1"
   },
   "author": "tony king",
-  "license": "BSD-2-Clause"
+  "license": "MIT"
 }
