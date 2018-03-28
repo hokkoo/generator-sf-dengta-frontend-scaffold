@@ -5,7 +5,9 @@ import extend from 'extend';
 		* 将文件复制到目标目录
 		* 将文件夹里面的内容复制到目标目录
 */
-const defaultOptions = {};
+const defaultOptions = {
+	dot: true
+};
 export default function copyTemplates (src, target, options) {
 	return new Promise((resolve, reject) => {
 		options = extend({}, defaultOptions, options);

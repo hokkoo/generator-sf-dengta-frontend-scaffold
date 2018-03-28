@@ -20,7 +20,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 		* 将文件复制到目标目录
 		* 将文件夹里面的内容复制到目标目录
 */
-var defaultOptions = {};
+var defaultOptions = {
+	dot: true
+};
 function copyTemplates(src, target, options) {
 	return new Promise(function (resolve, reject) {
 		options = (0, _extend2.default)({}, defaultOptions, options);
