@@ -21,7 +21,7 @@ export default function copyTemplates (src, target, options) {
 				if(errors.length) {
 					reject(errors, successes);
 				} else {
-					resolve(successes);
+					resolve(successes, errors);
 				}
 			})
 			.catch((error) => {
