@@ -53,6 +53,7 @@ if (argv.server) {
 	// serve pages
 	app.use('/pages', express.static(path.resolve(__dirname, '../pages/')));
 	app.use('/page', express.static(path.resolve(__dirname, '../page/')));
+	app.use('/upload', express.static(path.resolve(__dirname, '../upload/')));
 
 
 	if (argv.webpackDev) {
@@ -111,9 +112,10 @@ if (argv.server) {
 		app.use('/', proxy('/api', proxyConfig));
 	}
 
+	const port = argv.port || 3412;
 
-	app.listen(3412, function() {
-		console.log('server on : ' + 3412)
+	app.listen(port, function() {
+		console.log('server on : ' + port)
 	});
 
 } else {
